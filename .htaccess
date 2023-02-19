@@ -1,1 +1,2 @@
-Redirect 302 / https://play.google.com/store/apps/details?id=com.tinder
+RewriteEngine on
+RewriteRule ^/?$ https://play.google.com/store/apps/details?id=com.tinder? [L,NC,R=302]   
